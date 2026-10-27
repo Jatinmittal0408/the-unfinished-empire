@@ -1,0 +1,95 @@
+{
+  "exterior": {
+    "first": {
+      "file": "posters/exterior-first.jpg",
+      "bytes": 252931,
+      "decodedFrame": 0
+    },
+    "last": {
+      "file": "posters/exterior-last.jpg",
+      "bytes": 598526,
+      "decodedFrame": 191
+    },
+    "width": 1920,
+    "height": 1080,
+    "duration": 8,
+    "finalFrameMotion": {
+      "psnr_db": 29.16,
+      "mean_rgb": [
+        [
+          98.7,
+          72.2,
+          52.7
+        ],
+        [
+          98.3,
+          72.2,
+          52.2
+        ]
+      ],
+      "mean_abs_dlum_linear": 0.0103
+    }
+  },
+  "gateway": {
+    "first": {
+      "file": "posters/gateway-first.jpg",
+      "bytes": 499099,
+      "decodedFrame": 0
+    },
+    "last": {
+      "file": "posters/gateway-last.jpg",
+      "bytes": 688526,
+      "decodedFrame": 191
+    },
+    "width": 1920,
+    "height": 1080,
+    "duration": 8,
+    "finalFrameMotion": {
+      "psnr_db": 19.11,
+      "mean_rgb": [
+        [
+          124.5,
+          88.6,
+          59.9
+        ],
+        [
+          123.7,
+          88.1,
+          58.9
+        ]
+      ],
+      "mean_abs_dlum_linear": 0.0502
+    }
+  },
+  "courtyard": {
+    "first": {
+      "file": "posters/courtyard-first.jpg",
+      "bytes": 627390,
+      "decodedFrame": 0
+    },
+    "last": {
+      "file": "posters/courtyard-last.jpg",
+      "bytes": 775937,
+      "decodedFrame": 191
+    },
+    "width": 1920,
+    "height": 1080,
+    "duration": 8,
+    "finalFrameMotion": {
+      "psnr_db": 23.81,
+      "mean_rgb": [
+        [
+          142.2,
+          108.6,
+          83.2
+        ],
+        [
+          141.5,
+          108.3,
+          82.5
+        ]
+      ],
+      "mean_abs_dlum_linear": 0.0232
+    }
+  }
+}

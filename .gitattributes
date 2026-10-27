@@ -1,0 +1,7 @@
+# binary media: never diff or merge textually
+*.mp4 binary
+*.webm binary
+*.jpg binary
+*.png binary
+*.woff binary
+*.woff2 binary

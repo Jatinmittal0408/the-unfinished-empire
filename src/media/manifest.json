@@ -1,0 +1,11 @@
+{
+  "$comment": "Approved clips (media/ is local and git-ignored). Numbers are from `npm run probe` (container sample tables); stills come from `npm run posters` (decoded in Chromium).",
+  "clips": [
+    { "id": "exterior",  "file": "exterior.mp4",  "src": "/media/exterior.mp4",  "width": 1920, "height": 1080, "fps": 24, "frames": 192, "duration": 8, "audio": false,
+      "stills": { "first": "/posters/exterior-first.jpg", "last": "/posters/exterior-last.jpg" } },
+    { "id": "gateway",   "file": "gateway.mp4",   "src": "/media/gateway.mp4",   "width": 1920, "height": 1080, "fps": 24, "frames": 192, "duration": 8, "audio": false,
+      "stills": { "first": "/posters/gateway-first.jpg", "last": "/posters/gateway-last.jpg" } },
+    { "id": "courtyard", "file": "courtyard.mp4", "src": "/media/courtyard.mp4", "width": 1920, "height": 1080, "fps": 24, "frames": 192, "duration": 8, "audio": false,
+      "stills": { "first": "/posters/courtyard-first.jpg", "last": "/posters/courtyard-last.jpg" } }
+  ]
+}

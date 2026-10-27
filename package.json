@@ -1,0 +1,38 @@
+{
+  "name": "the-unfinished-empire",
+  "version": "1.1.0",
+  "description": "The Unfinished Empire: an interactive cinematic arrival (exterior, gateway, courtyard) built from three AI-generated clips.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node scripts/validate.mjs",
+    "browsers": "playwright-core install chromium",
+    "probe": "node scripts/probe-media.mjs",
+    "posters": "node scripts/extract-posters.mjs",
+    "analyse": "node scripts/analyse-clips.mjs",
+    "analyse:joins": "node scripts/analyse-joins.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/jost": "^5.3.0",
+    "motion": "^12.43.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.2.0",
+    "mp4box": "^0.5.4",
+    "playwright-core": "^1.64.1",
+    "typescript": "5.9",
+    "vite": "^7.3.7"
+  }
+}

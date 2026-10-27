@@ -1,0 +1,15 @@
+# dependencies and build output
+node_modules/
+dist/
+
+# generated locally by the measurement and validation scripts (large, regenerable)
+.generated/
+validation/
+diagnostics/out/
+public/review/
+
+# editor / OS
+.DS_Store
+*.log
+.env
+.env.*
