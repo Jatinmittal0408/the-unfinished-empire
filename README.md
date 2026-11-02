@@ -2,6 +2,11 @@
 
 *Not inherited. Still becoming.*
 
+> **Read [`docs/PROJECT-HANDOFF.md`](docs/PROJECT-HANDOFF.md) before making any change.** It is the master
+> handoff: the vision, the full history, what is approved and what is not, the privacy rules, the current
+> preproduction plan, and how GPT and Claude divide the work. This applies to every contributor and to every new AI
+> session, GPT or Claude.
+
 An interactive cinematic arrival. Three AI-generated clips (an aerial of the palace, the approach to its gateway,
 and the passage into its courtyard) are joined into one continuous entrance that ends inside the courtyard, where
 five destinations are anchored to the architecture.
